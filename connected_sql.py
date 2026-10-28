@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 
 def connect_database():
     try:
-        engine=create_engine(url="mssql+pyodbc://@NTT-H6STJM3/food_delivery""?driver=ODBC+Driver+18+for+SQL+Server"
+        engine=create_engine(url="mssql+pyodbc://@YOUR_SERVER_NAME/food_delivery""?driver=ODBC+Driver+18+for+SQL+Server"
                              "&trusted_connection=yes""&TrustServerCertificate=yes")
     except:
         return None,False
