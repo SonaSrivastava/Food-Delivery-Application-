@@ -85,7 +85,7 @@ else:
     st.sidebar.subheader("Status: 🔴 Not Connected")
     
 
-#& ".\.venv\Scripts\python.exe" -m streamlit run app.py- to run the command 
+
 
 
     
